@@ -70,4 +70,13 @@ The server will start by default on `http://localhost:8082`.
 
 ---
 
- 
+ ---
+
+## 🔍 API Documentation & Testing
+
+This project includes **Swagger / OpenAPI UI** integration, allowing you to easily visualize and test the REST API endpoints directly from your browser.
+
+Once the application is running, open your browser and navigate to:
+* **Swagger UI:** `http://localhost:8080/swagger-ui/index.html` (or `http://localhost:8080/swagger-ui.html` depending on your version)
+
+From the Swagger dashboard, you can interact with all controllers (Customer, Inventory, Sales) and test `GET`, `POST`, `PUT`, and `DELETE` requests in real-time.
